@@ -99,3 +99,19 @@ body{
     border: none;
     margin-top: 20px;
 }
+
+/* media queries */
+
+@media (max-width: 600px){
+    .esquerdo{
+        display: none;
+    }
+
+    .direito{
+        width: 100%;
+    }
+
+    .inputs input{
+        width: 300px;
+    }
+}
